@@ -1,0 +1,905 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+                        /* all heading section */
+.team{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.teamheading{
+    display: inline;
+    text-transform: capitalize;
+    text-decoration:underline;
+    font-size: 24px;
+    color: rgb(100, 100, 100);
+}
+.teamheading:hover{
+    transition: 1.2s ;
+    color: rgba(29, 28, 28, 0.733);
+}
+                        /* footer section */
+.footerparent{
+    height: 200px;
+    margin-top: 300px;
+    background-color:rgb(37, 36, 36);
+}
+.endheading{
+   display: flex;
+   justify-content: center;
+}
+.aboutheading{
+   display: inline;
+   text-transform: capitalize;
+   text-decoration:underline;
+   font-size: 24px;
+   margin: 10px 0px;
+   color: white;
+}
+.endicons{
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+}
+.social a{
+   padding: 0px 10px;
+}
+.social .fab,.social .fas{
+   padding: 10px;
+   font-size: 30px;
+   border-radius: 50%;
+}
+.fa-facebook-square{
+   color:#3b5998 ;
+}
+.fa-instagram-square{
+   color: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);;
+}
+.fa-twitter-square{
+   color: #00acee;
+}
+.fa-linkedin{
+   color:#0077b5 ;
+}
+.fa-envelope-square{
+   color: #f1d592;
+}
+.social a:hover{
+   margin-top: -10px;
+   transition: 1.5s;
+}
+   
+                        /* <!--========== homepage css ==========--> */
+
+.homepage{
+    background: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/homebg1.jpg) no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    height: 100vh;
+    width: 100%;
+}
+.homenav{
+    height: 80px;
+    width: 100%;
+}
+.homelogo{
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    line-height: 80px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+.homenav ul{
+    float: right;
+    margin-right: 50px;
+}
+.homenav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px 20px;
+}
+.homenav ul li a{
+    text-transform: uppercase;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 5px 10px; 
+    border: 1px solid transparent;
+    border-radius: 3px;
+
+}
+.homenav ul li a:hover,
+.homenav ul li a.active {
+    border: 1px solid white;
+    transition: border 0.8s;
+    
+}
+#homecheck {
+    color: white;
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+.homeheading{
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 35px;
+    color: #ffdf00;
+    text-shadow: 1px 10px 8px black;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+                       /* ---------- media quries for desktops and laptops ----------*/
+ @media (max-width:1200px){
+.homelogo{
+font-size:30px;
+margin-left: 30px;
+}
+.homenav ul{
+margin-right: 30px;
+}
+.homenav ul li{
+    margin: 0px 15px;
+}
+.homeheading{
+font-size: 30px;
+}
+}
+                                            /* ---------- media quries for phones and tablets/ipads ----------*/
+@media (max-width: 962px){
+.homenav{
+background: rgba(0,0,0,0.6);
+}
+#homecheck{
+display: block;
+font-size: 25px;
+}   
+.homelogo{
+font-size: 25px;
+margin-left: 30px;
+}
+.homenav ul{
+display: none;
+position: fixed;
+width: 100%;
+height: 70vh;
+background: #2c3e50;
+top: 80px;
+left: 0px;
+text-align: center;
+z-index: 10;
+}
+.homenav ul li{
+display: block;
+}
+.homenav ul li a{
+font-size: 20px;
+}
+.homenav ul li a:hover,.homenav ul li a.active{
+border: none;
+}
+.homenav ul li:hover{
+border-bottom: 1px solid rgba(255,255,255,0.4);
+transition: 1s;
+}  
+.homeheading{
+font-size: 25px;
+z-index: 8;
+}
+}
+
+                        /* <!--========== end of homepage css ==========--> */
+
+
+                        /* <!--========== secondpage css ==========--> */
+.secondpage{
+    display: flex;
+    justify-content: center;
+}                        
+.secondparent{
+    width: 90%;
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.secondchild{
+    position: relative;
+    width: 450px;
+    height: 250px;
+    color: #fff;
+    margin: 0px 15px;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0px 0px 15px  black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.secondchild1{
+    background:linear-gradient( rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(img/table.jpg) no-repeat;
+    background-size: cover;
+}
+.secondchild2{
+    background:linear-gradient( rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(img/hall.jpg) no-repeat;
+    background-size: cover;
+}
+.secondchild3{
+    background:linear-gradient( rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(img/event.jpg) no-repeat;
+    background-size: cover;
+}
+.secondupper{
+    position: relative;
+    left: 60%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+}
+.secondheading{
+    color: rgba(255, 255, 255);
+}
+.secondupper .secondheading{
+    text-shadow: 0px 0px 8px black;
+}
+
+.secondupper .detailbtn{
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    padding: 8px 16px;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #ffdd00ef;
+}
+.secondupper .detailbtn:hover{
+    background-color: white;
+    transition: 0.6s;
+}
+
+.second_imagebar{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.second_imageslider{
+    position: relative;
+    margin-bottom: 100px;
+    top: 200px;
+    width: 90%;
+    height: 400px;
+    background: url(img/slider2.jpg) no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 0px 0px 8px black;
+    border-radius: 8px;
+    animation: slider 20s infinite linear;
+}
+ @keyframes slider{
+    0%{
+        background: url(img/slider2.jpg) no-repeat;
+    }
+    20%{
+        background: url(img/slider3.jpg) no-repeat;
+        background-size: 100% 100%;
+    }
+    40%{
+        background: url(img/slider1.jpg) no-repeat;
+        background-size: 100% 100%;
+    }
+    60%{
+        background: url(img/slider4.jpg) no-repeat;
+        background-size: 100% 100%;
+    }
+    40%{
+        background: url(img/slider5.jpg) no-repeat;
+        background-size: 100% 100%;
+    }
+} 
+
+                       /* ---------- media quries for desktops and laptops ----------*/
+@media (max-width:1200px){
+    .secondparent{
+        flex-wrap: wrap;
+    }
+    .secondchild{
+        margin: 10px 10px;
+    }
+    .second_imagebar{
+        flex-wrap: wrap;
+    }
+    .second_imageslider{
+        width: 80%;
+        height: 400px;
+    }
+}
+                       /* ---------- media quries for phones and tablets ----------*/
+
+@media (max-width: 962px){
+    .secondparent{
+        flex-wrap: wrap;
+    }
+    .secondchild{
+        margin: 10px 0px;
+    }
+    .second_imagebar{
+        flex-wrap: wrap;
+    }
+    .second_imageslider{
+        width: 600px;
+        height: 300px;
+    }
+}
+
+                        /* <!--========== end of secondpage css ==========--> */
+
+
+
+/* <!--******************************************* table, hall & event css ******************************************************************--> */
+.tableparent, .hallparent, .eventparent{
+    margin-top: 50px;
+}
+.tablechild, .hallchild, .eventchild{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.tableblock, .hallblock, .eventblock{
+   width: 300px;
+   height: 250px; 
+   border-radius: 8px;
+   box-shadow: 0 0 3px black;
+   margin: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.tableblock a, .hallblock a, .eventblock a{
+    padding: 4px 4px;
+    width: 100px;
+    text-decoration: none;
+    color: white;
+    background-color: #ffdd00ef;
+    border-radius: 8px;
+}
+.tableblock h3, .hallblock h3, .eventblock h3 {
+    color: white;
+}
+.tableblock a:hover, .hallblock a:hover, .eventblock a:hover{
+     background-color: white;
+     color: black;
+     transition: 0.8s ease-in-out linear;
+}
+
+/* media quries for table, hall & event pages */
+
+@media (max-width:962px){
+    .tableparent, .hallparent, .eventparent{
+        margin: 50px 5px;
+    }
+    .tableblock, .hallblock, .eventblock{
+        margin: 5px;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:475px){
+   
+   .tablechild, .hallchild, .eventchild{
+       flex-wrap: wrap;
+    }
+    .tableblock, .hallblock, .eventblock{
+        width: 160px;
+        height: 160px;
+        margin: 3px;
+    }
+    .tableblock a, .hallblock a, .eventblock a{
+        font-size: 10px;
+        width: 80px;
+        text-align: center;
+    }
+    .tableblock h3, .hallblock h3, .eventblock h3{
+        font-size: 14px;
+    }
+}
+
+/* table photo section */
+
+.tbl1{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/tbl1.jpg) no-repeat;
+    background-size: cover;
+}
+.tbl2{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/tbl2.jpg) no-repeat;
+    background-size: cover;
+}
+.tbl3{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/tbl3.jpg) no-repeat;
+    background-size: cover;
+}
+.tbl4{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/tbl4.jpg) no-repeat;
+    background-size: cover;
+}
+.tbl5{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/tbl5.jpg) no-repeat;
+    background-size: cover;
+}
+.tbl6{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/tbl6.jpg) no-repeat;
+    background-size: cover;
+}
+.tbl7{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/tbl7.jpg) no-repeat;
+    background-size: cover;
+}
+.tbl8{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/tbl8.jpg) no-repeat;
+    background-size: cover;
+}
+.tbl9{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/tbl9.jpg) no-repeat;
+    background-size: cover;
+}
+.tbl10{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/tbl10.jpg) no-repeat;
+    background-size: cover;
+}
+.tbl11{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/tbl11.jpg) no-repeat;
+    background-size: cover;
+}
+.tbl12{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/tbl12.jpg) no-repeat;
+    background-size: cover;
+}
+.tbl13{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/tbl13.jpg) no-repeat;
+    background-size: cover;
+}
+.tbl14{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/tbl14.jpg) no-repeat;
+    background-size: cover;
+}
+.tbl15{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/tbl15.jpg) no-repeat;
+    background-size: cover;
+}
+.tbl16{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/tbl16.jpg) no-repeat;
+    background-size: cover;
+}
+.tbl17{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/tbl17.jpg) no-repeat;
+    background-size: cover;
+}
+.tbl18{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/tbl18.jpg) no-repeat;
+    background-size: cover;
+}
+.tbl19{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/tbl19.jpg) no-repeat;
+    background-size: cover;
+}
+.tbl20{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/tbl20.jpg) no-repeat;
+    background-size: cover;
+} 
+
+/* hall photo section */
+
+.h1{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/h1.jpg) no-repeat;
+    background-size: cover;
+}
+.h2{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/h2.jpg) no-repeat;
+    background-size: cover;
+}
+.h3{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/h3.jpg) no-repeat;
+    background-size: cover;
+}
+.h4{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/h4.jpg) no-repeat;
+    background-size: cover;
+}
+.h5{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/h5.jpg) no-repeat;
+    background-size: cover;
+}
+.h6{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/h6.jpg) no-repeat;
+    background-size: cover;
+}
+.h7{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/h7.jpg) no-repeat;
+    background-size: cover;
+}
+.h8{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/h8.jpg) no-repeat;
+    background-size: cover;
+}
+.h9{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/h9.jpg) no-repeat;
+    background-size: cover;
+}
+.h10{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/h10.jpg) no-repeat;
+    background-size: cover;
+}
+.h11{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/h11.jpg) no-repeat;
+    background-size: cover;
+}
+.h12{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/h12.jpg) no-repeat;
+    background-size: cover;
+}
+ 
+/* event photo section */
+
+.e1{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/e1.jpg) no-repeat;
+    background-size: cover;
+}
+.e2{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/e2.jpg) no-repeat;
+    background-size: cover;
+}
+.e3{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/e3.jpg) no-repeat;
+    background-size: cover;
+}
+.e4{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/e4.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+/* <!--******************************************* register detail css ******************************************************************--> */
+.regcontainer{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/regbg.jpg) no-repeat;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;                
+}
+.regcontainer h2{
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.regcardcontainer{
+    display: grid;
+    grid-template-columns: 420px 420px;
+}
+.regtblimg{
+    background: url(img/table.jpg) no-repeat;
+    background-size: cover;
+}
+.reghallimg{
+    background: url(img/hall.jpg) no-repeat;
+    background-size: cover;
+}
+.regeventimg{
+    background: url(img/event.jpg) no-repeat;
+    background-size: cover;
+}
+.regcontent{
+    background: white;
+    height: 430px;
+}
+.regcontent h3{
+    text-align: center;
+    color: black;
+    padding: 15px 0 10px 0;
+    font-size: 26px;
+    font-weight: 500;
+}
+.formrow{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+
+}
+.regform select, .regform input{
+    display: block;
+    width: 100%;
+    margin: 15px 12px;
+    padding: 5px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #eee;
+    font-weight: 300;
+}
+.regform input[type = text], .regform input[type = number], .regform input[type = date], .regform input[type = time], .regform input::placeholder, select{
+    color: #9e9e9e;
+}
+.regform input[type = submit]{
+     color: white;
+     background: #ffdd00ef;
+     padding: 12px 0;
+     border-radius: 4px;
+     cursor: pointer;
+}
+.regform input[type = submit]:hover{
+    opacity: 0.9;
+    transition: 0.3s ease-in;
+
+}
+@media (max-width: 992px){
+    .regcardcontainer{
+        grid-template-columns: 100%;
+    }
+    .regimg{
+        height: 330px;
+    }
+}
+
+
+
+
+
+/* <!--***************************************************** about us css ******************************************************************--> */
+.footerparent{
+    margin-top: 200px;
+}
+.abouthomepage{
+    background: linear-gradient( rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(img/aboutus.jpg) no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    height: 80vh;
+    width: 100%;
+}
+.details{
+    display: flex;
+    justify-content: center;
+}
+.teammembers{
+    width: 90%;
+    position: relative;
+    top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+.member{
+    position: relative;
+    width: 280px;
+    height: 245;
+    background-color:bisque;
+    color: grey;
+    margin: 0px 10px 60px 10px;
+    padding: 3px 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+.member h3{
+    font-weight: bold;
+}
+.name , .dtl{
+    margin-top: -35px;    
+}
+.name{
+    color:rgb(61, 61, 61);
+    margin-bottom: 40px;
+}
+.name:hover, .teamheading:hover{
+    transition: 1.2s ;
+    color: rgba(37, 36, 36, 0.733);
+}
+.dtl{
+    margin-bottom: 20px;
+}
+ .photo{
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     position: relative;
+     top: -25%;
+     background-color: bisque;
+     padding: 4px;
+ }
+ .aboutjourny1{
+     margin-top: -50px;
+     display: flex;
+     justify-content: center;
+ }
+ .journydtl1{
+    position: relative;
+    width: 90%;
+    height: 300px;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.journydtl1 p{
+    width: 400px;
+    margin: 0px 20px 20px 20px;
+}
+.journydtl1 img{
+    width: 400px;
+    height: 250px;
+    border-radius: 3px;
+}
+.aboutjourny2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}                        
+.journydtl2{
+    width: 90%;
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.journychild{
+    position: relative;
+    width: 450px;
+    height: 250px;
+    color: white;
+    margin: 0px 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px  black;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.journychild1{
+    background:linear-gradient( rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(img/map.jpg) no-repeat;
+    background-size: cover;
+}
+.journychild2{
+    background:linear-gradient( rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(img/restaurents.jpg) no-repeat;
+    background-size: cover;
+}
+.journychild3{
+    background:linear-gradient( rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(img/custmers.jpg) no-repeat;
+    background-size: cover;
+}
+                        /* media quries */
+@media (max-width:1200px){
+    .teammembers{
+        flex-wrap: wrap;
+    }
+    .journydtl{
+        flex-wrap: wrap;
+    }
+    .journydt2{
+        flex-wrap: wrap;
+    }
+    .journychild{
+        margin: 10px 10px;
+    }
+    }
+
+ @media (max-width: 962px){
+.teammembers{
+flex-wrap: wrap;
+}
+.journydtl{
+    flex-wrap: wrap;
+}
+.journydt2{
+    flex-wrap: wrap;
+}
+.journychild{
+    margin: 20px 20px;
+}
+}
+@media (max-width: 933px){
+    .aboutjourny1{
+        margin-top: 200px;
+    }
+    .journydt2{
+        flex-wrap: wrap;
+    }
+    
+    }
+
+
+
+
+/* <!--***************************************************** services css ******************************************************************--> */
+.servicehomepage{
+    background: linear-gradient( rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(img/services.jpg) no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    height: 80vh;
+    width: 100%;
+}
+.serparent{
+    margin-top: 50px;
+}
+.serchild{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.serblock{
+   width: 300px;
+   height: 250px; 
+   border-radius: 8px;
+   box-shadow: 0 0 3px black;
+   margin: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: white;
+}
+.s1{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/s1.jpg) no-repeat;
+    background-size: cover;
+}
+.s2{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/s2.jpg) no-repeat;
+    background-size: cover;
+}
+.s3{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/s3.jpg) no-repeat;
+    background-size: cover;
+}
+.s4{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/s4.jpg) no-repeat;
+    background-size: cover;
+}
+.s5{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/s5.jpg) no-repeat;
+    background-size: cover;
+}
+.s6{
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/s6.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+/* media quries for table, hall & event pages */
+@media (max-width:962px){
+    .serparent{
+        margin: 50px 5px;
+    }
+    .serblock{
+        margin: 5px;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:475px){
+   
+   .serchild{
+       flex-wrap: wrap;
+    }
+    .serblock{
+        width: 160px;
+        height: 160px;
+        margin: 3px;
+    }
+    .serblock h3{
+        font-size: 14px;
+    }
+}
+
+/* <!--***************************************************** login css ******************************************************************--> */
+
+
+
+
+/* <!--***************************************************** signup css ******************************************************************--> */
+
